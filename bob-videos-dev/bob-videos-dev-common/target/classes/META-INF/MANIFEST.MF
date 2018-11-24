@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: bob-videos-dev-common
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Administrator
+Built-By: admin
 Implementation-Vendor-Id: com.bob
-Build-Jdk: 1.8.0_181
+Build-Jdk: 1.8.0_144
 Implementation-URL: http://projects.spring.io/spring-boot/bob-videos-d
  ev/bob-videos-dev-common/
 Created-By: Maven Integration for Eclipse
