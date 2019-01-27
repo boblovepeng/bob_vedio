@@ -20,6 +20,7 @@
      ./redis-server redis.conf
     redis-cli -h 192.168.139.128 -p 6379 -a 1030406963
 ###在用软件RedisDesktopManager连接虚拟机中centos中redis服务，centos中是可以上网的，并且在外部主机是可以ping的，为此查了很多原因，也修改了redis.conf文件中的bind127.0.0.1也不行，后来查到原来是防火墙的问题，所以需要禁用防火墙
+# 每次打开执行机后可以先执行这一步
 停止使用firewall
     >systemctl stop firewalld.service #停止firewall
 禁止在开机启动
