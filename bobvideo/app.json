@@ -1,14 +1,15 @@
 {
-  "pages":[
-      "pages/mine/mine",
+  "pages": [
+    "pages/mine/mine",
     "pages/userLogin/login",
-     "pages/userRegist/regist",
+    "pages/userRegist/regist",
     "pages/index/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "bob小视频",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
 }

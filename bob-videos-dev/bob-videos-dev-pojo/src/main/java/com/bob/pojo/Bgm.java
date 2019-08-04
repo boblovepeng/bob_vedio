@@ -1,6 +1,6 @@
 package com.bob.pojo;
 
-import javax.persistence.*;
+import javax.persistence.Id;
 
 public class Bgm {
     @Id

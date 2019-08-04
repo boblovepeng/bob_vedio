@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bob-videos-dev-mini-api" />
+        <module name="bob-videos-dev-pojo" />
+        <module name="bob-videos-dev-mapper" />
+        <module name="bob-videos-dev-common" />
+        <module name="mybatis-generatorConfig" />
+        <module name="bob-videos-dev-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="imooc-videos-dev" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bob-videos-dev-common" options="-parameters" />
+      <module name="bob-videos-dev-mapper" options="-parameters" />
+      <module name="bob-videos-dev-mini-api" options="-parameters" />
+      <module name="bob-videos-dev-pojo" options="-parameters" />
+      <module name="bob-videos-dev-service" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,6 +1,8 @@
 package com.bob.pojo;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Table(name = "users_fans")
 public class UsersFans {
