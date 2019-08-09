@@ -2,6 +2,7 @@ package com.bob.controller;
 
 import java.util.UUID;
 
+import com.bob.service.impl.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +22,7 @@ import io.swagger.annotations.ApiOperation;
 @Api(value="用户注册登录的接口",tags= {"注册和登录的controller"})
 public class RegistAndLoginController extends BasicController{
     @Autowired
-    private IUserService userService;
+    private UserService userService;
     
     @PostMapping("/regist")
     @ApiOperation(value="用户注册",notes="用户注册的接口")

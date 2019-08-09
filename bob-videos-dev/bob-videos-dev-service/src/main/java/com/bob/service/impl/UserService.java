@@ -13,7 +13,7 @@ import com.bob.service.IUserService;
 @Service
 public class UserService implements IUserService{
     @Autowired
-    private UsersMapper usersMapper; 
+    private UsersMapper usersMapper;
     @Autowired
     Sid sid;
     @Transactional(propagation=Propagation.SUPPORTS)

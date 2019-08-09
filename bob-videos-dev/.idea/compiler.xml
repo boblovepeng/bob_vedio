@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bob-videos-dev-mini-api" />
         <module name="bob-videos-dev-pojo" />
-        <module name="bob-videos-dev-mapper" />
+        <module name="bob-videos-dev-mini-api" />
         <module name="bob-videos-dev-common" />
-        <module name="mybatis-generatorConfig" />
+        <module name="bob-videos-dev-mapper" />
         <module name="bob-videos-dev-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="imooc-videos-dev" target="1.8" />
+      <module name="mybatis-generatorConfig" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

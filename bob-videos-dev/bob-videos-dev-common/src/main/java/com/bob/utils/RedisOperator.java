@@ -89,6 +89,7 @@ public class RedisOperator {
 	 *            （以秒为单位）
 	 */
 	public void set(String key, String value, long timeout) {
+		System.out.println("用户存入redis:"+key+","+value+","+timeout);
 		redisTemplate.opsForValue().set(key, value, timeout, TimeUnit.SECONDS);
 	}
 
